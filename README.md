@@ -70,3 +70,64 @@ Typescript is a powerful compiler~编译器~ building up on javascript, It adds 
 
 ![1670406652904](README.assets/1670406652904.png)
 
+
+
+### Exclude Files
+
+![1670461659222](README.assets/1670461659222.png)
+
+
+
+# ES6
+
+### Const vs Let vs Var
+
+**const** can not be changed, if you would try to assign a new value here, you will get an error.
+
+```javascript
+const userName = "Olivia";
+userName = "Chen"  //错的 错的 错的
+```
+
+**let ** is a variable which can be changed. Block scope: a snippet~片段~ surrounded with curly braces in a (if statement / for loop / function), any variable defined in there would be available in that block.
+
+```javascript
+function add(a:number,b:number){
+    let result;
+    result = a + b;
+    return result;
+}
+console.log(result);  // 可以
+
+
+
+let result; //可以
+function add(a:number,b:number){
+    result = a + b;
+    return result;
+}
+console.log(result); 
+```
+
+
+
+**var** global and a function scope.
+
+```javascript
+function add(a:number,b:number){
+    var result;
+    result = a + b;
+    return result;
+}
+console.log(result);  //错的 coz It's only available in the function.
+
+
+
+var result; //Defined outside the function!
+function add(a:number,b:number){
+    result = a + b;
+    return result;
+}
+console.log(result); //可以 Defined outside the function, coz it's globally.
+```
+
