@@ -21,33 +21,35 @@
 // const printOutput:(a:number | string) =>void = output=>console.log(output);
 // printOutput(add(2,5))
 
-const hobbies = ["hotpot", "malatang","eeee","lll"];
-// const eating = ["malaxiangguo"];
+// const hobbies = ["hotpot", "malatang","eeee","lll"];
+// // const eating = ["malaxiangguo"];
 
-// eating.push(...hobbies);
-// console.log(eating);
+// // eating.push(...hobbies);
+// // console.log(eating);
 
-const girl = {
-    girlName:"Olivia",
-    age:18
-};
-// const copiedGirl = { ...girl };
-// console.log(copiedGirl);
+// const girl = {
+//     girlName:"Olivia",
+//     age:18
+// };
+// // const copiedGirl = { ...girl };
+// // console.log(copiedGirl);
 
-//numbers 自己自定义的名字
-const add = (...numbers:number[])=>{
-    return numbers.reduce((total,currentValue)=>{
-        return total+currentValue;
-    },0)
-};
+// //numbers 自己自定义的名字
+// const add = (...numbers:number[])=>{
+//     return numbers.reduce((total,currentValue)=>{
+//         return total+currentValue;
+//     },0)
+// };
 
-const addedNumbers = add(1,10,10,10);
-console.log(addedNumbers);
+// const addedNumbers = add(1,10,10,10);
+// console.log(addedNumbers);
 
 
 
-const [hobby1,hobby2,...remaining] = hobbies;
-console.log(hobby1,hobby2,...remaining,hobbies);
+// const [hobby1,hobby2,...remaining] = hobbies;
+// console.log(hobby1,hobby2,...remaining,hobbies);
 
-const {girlName,age} = girl;
-console.log(girlName,age,girl);
+// const {girlName,age} = girl;
+// console.log(girlName,age,girl);
+
+

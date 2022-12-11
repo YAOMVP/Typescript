@@ -131,3 +131,7 @@ function add(a:number,b:number){
 console.log(result); //可以 Defined outside the function, coz it's globally.
 ```
 
+
+
+
+
