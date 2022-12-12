@@ -22,14 +22,6 @@ We are just addind in little extra syntax here and there, are meant to help the 
 
 
 
-
-
-
-
-
-
-
-
 ## Install Typescript
 
 1.npm init
@@ -58,17 +50,31 @@ We are just addind in little extra syntax here and there, are meant to help the 
 
 
 
-## Core Types
+### Function 3 ways
 
-![1670379166390](README.assets/1670379166390.png)
+![1670839835186](README.assets/1670839835186.png)
+
+
+
+### Destructing
+
+![1670840861882](README.assets/1670840861882.png)
+
+
+
+### Array
+
+![1670843634656](README.assets/1670843634656.png)
+
+
 
 
 
 ###Tuple
 
-**元组 Pre-defined length and types for each index.**
+**元组 Pre-defined length and types for each index. Always have a very consistent ordering of element inside of it.**
 
-![1670375296836](README.assets/1670375296836.png)
+![1670844511841](README.assets/1670844511841.png)
 
 
 
