@@ -4,9 +4,29 @@
 
 ## What is Typescript?
 
-Typescript is a powerful compiler~编译器~ building up on javascript, It adds new features + advantages to javascript. It makes write javascript easier.
+![1670811738769](README.assets/1670811738769.png)
 
-**BUT brower can't execute it.**
+We are just addind in little extra syntax here and there, are meant to help the typescript compiler understand that we are trying to do our code base and help us catch errors.
+
+
+
+
+
+![1670811997009](README.assets/1670811997009.png)
+
+
+
+2). **Typescript Complier**: Command line tool that is going to read our code check for any possible errors and convert it into plain javascript.
+
+3).**Plain old Javasctipt**: You and I are going to take the javascript code and feed it into the browser or into Node.js, finally execute it.
+
+
+
+
+
+
+
+
 
 
 
