@@ -1,3 +1,5 @@
+
+
 # TYPESCRIPT LEARNING
 
 ## What is Typescript?
@@ -10,7 +12,29 @@ Typescript is a powerful compiler~编译器~ building up on javascript, It adds 
 
 ## Install Typescript
 
+1.npm init
+
+2.npm install --save-dev lite-server
+
+![1670717420635](README.assets/1670717420635.png)
+
+
+
+3.
+
 ![1670375569556](README.assets/1670375569556.png)
+
+4.tsc --init    生成tscfig.json文件
+
+ "rootDir": "./src",    
+
+"outDir": "./dist",  
+
+ "noEmitOnError": true 
+
+![1670718141993](README.assets/1670718141993.png)
+
+5.npm start
 
 
 
@@ -133,5 +157,33 @@ console.log(result); //可以 Defined outside the function, coz it's globally.
 
 
 
+# Class
 
+## Create a basic Class
+
+![1670718835161](README.assets/1670718835161.png)
+
+
+
+## Inheritance
+
+![1670726498280](README.assets/1670726498280.png)
+
+## super 
+
+Calls the base constructor, it can take the argument of the base constructor 
+
+![1670726736458](README.assets/1670726736458.png)
+
+## Getters and Setters
+
+Getters: We can read the *fullName* like a **property**.
+
+![1670731539771](README.assets/1670731539771.png)
+
+
+
+Setters:We can set it from the outside.
+
+![1670732102259](README.assets/1670732102259.png)
 
