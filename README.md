@@ -1,5 +1,7 @@
 
 
+
+
 # TYPESCRIPT LEARNING
 
 ## What is Typescript?
@@ -65,8 +67,6 @@ We are just addind in little extra syntax here and there, are meant to help the 
 ### Array
 
 ![1670843634656](README.assets/1670843634656.png)
-
-
 
 
 
@@ -183,23 +183,85 @@ console.log(result); //可以 Defined outside the function, coz it's globally.
 
 
 
+
+
+#Interface
+
+ ## Fixing long annotations
+
+(大概看一下 解构的方法)
+
+![1670892154038](README.assets/1670892154038.png)
+
+
+
+要不然写的太长了
+
+![1670892591154](README.assets/1670892591154.png)
+
+
+
+缩短 year / summary() function 
+
+![1670893172744](README.assets/1670893172744.png)
+
+
+
+interface reuseable
+
+![1670894349743](README.assets/1670894349743.png)
+
+
+
+
+
 # Class
 
 ## Create a basic Class
+
+![1670896252811](README.assets/1670896252811.png)
+
+![1670896803541](README.assets/1670896803541.png)
+
+
 
 ![1670718835161](README.assets/1670718835161.png)
 
 
 
+
+
 ## Inheritance
 
-![1670726498280](README.assets/1670726498280.png)
+![1670897292903](README.assets/1670897292903.png)
+
+
+
+
+
+### Modifiers  p45  06:42
+
+![1670898115230](README.assets/1670898115230.png)
+
+
+
+![1670899190134](README.assets/1670899190134.png)
+
+
 
 ## super 
 
 Calls the base constructor, it can take the argument of the base constructor 
 
 ![1670726736458](README.assets/1670726736458.png)
+
+
+
+![1670900323429](README.assets/1670900323429.png)
+
+
+
+
 
 ## Getters and Setters
 
@@ -212,4 +274,8 @@ Getters: We can read the *fullName* like a **property**.
 Setters:We can set it from the outside.
 
 ![1670732102259](README.assets/1670732102259.png)
+
+
+
+
 
