@@ -279,3 +279,35 @@ Setters:We can set it from the outside.
 
 
 
+# Map Project p50有介绍
+
+![1670904481259](README.assets/1670904481259.png)
+
+
+
+![1670904796061](README.assets/1670904796061.png)
+
+![1670905061545](README.assets/1670905061545.png)
+
+
+
+
+
+## Get randomly User
+
+![1670927425187](README.assets/1670927425187.png)
+
+
+
+## Get randomly Company 
+
+![1670928178747](README.assets/1670928178747.png)
+
+
+
+## Adding Google Maps Support  
+
+Follow the instruction p57 07:39
+
+![1670928310930](README.assets/1670928310930.png)
+
