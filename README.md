@@ -239,7 +239,9 @@ interface reuseable
 
 
 
-### Modifiers  p45  06:42
+### Modifiers  public vs private
+
+p45  06:42
 
 ![1670898115230](README.assets/1670898115230.png)
 

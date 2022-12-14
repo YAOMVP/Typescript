@@ -1,17 +1,13 @@
-// import { User } from "./User";
-// import { Company } from "./Company";
+ import { User } from "./User";
+ import { Company } from "./Company";
+ import { CustomMap } from "./CustomMap";
 
-// const user = new User();
-// console.log(user);
+const user = new User();
 
-// const company = new Company();
-// console.log(company);
+const company = new Company();
 
-new google.maps.Map(document.getElementById("map")!,
-{
-    zoom:1,
-    center:{
-        lat:0,
-        lng:0
-    }
-});
+const cutomMap = new CustomMap("map");
+// customMap.googleMap  (Can not use coz we define it is private)
+
+cutomMap.addMarker(user);
+cutomMap.addMarker(company);
