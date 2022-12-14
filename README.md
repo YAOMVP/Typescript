@@ -313,3 +313,31 @@ Follow the instruction p57 07:39
 
 ![1670928310930](README.assets/1670928310930.png)
 
+
+
+
+
+
+
+# sort Project p72
+
+## Compile multiple files
+
+![1671009933155](README.assets/1671009933155.png)
+
+
+
+2.
+
+![1671010414506](README.assets/1671010414506.png)
+
+3.![1671010438487](README.assets/1671010438487.png)
+
+最后弄完了 **npm start**
+
+
+
+## Sorter 
+
+![1671012387240](README.assets/1671012387240.png)
+
