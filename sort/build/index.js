@@ -1,4 +1,7 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const NumbersCollection_1 = require("./NumbersCollection");
+const CharactersCollection_1 = require("./CharactersCollection");
 // class Sorter{
 //     collection:number[];
 //     constructor(collection:number[]){
@@ -6,24 +9,17 @@
 //     }
 // }
 // const sorter = new Sorter([10,3,-5,0]);
-//😊缩减代码：
-class Sorter {
-    constructor(collection) {
-        this.collection = collection;
-    }
-    sort() {
-        const { length } = this.collection;
-        for (let i = 0; i < length; i++) {
-            for (let j = 0; j < length - i - 1; j++) {
-                if (this.collection[j] > this.collection[j + 1]) {
-                    const leftHand = this.collection[j];
-                    this.collection[j] = this.collection[j + 1];
-                    this.collection[j + 1] = leftHand;
-                }
-            }
-        }
-    }
-}
-const sorter = new Sorter([10, 3, -5, 0]);
-sorter.sort();
-console.log(sorter.collection);
+// const numbersCollection = new NumbersCollection([10,3,-5,0]);
+// const sorter = new Sorter(numbersCollection);
+// sorter.sort();
+// console.log(numbersCollection.data);
+// const characterCollection = new CharacterCollection("Xaayb");
+// const sorter = new Sorter(characterCollection);
+// sorter.sort();
+// console.log(characterCollection.data);
+const numbersCollection = new NumbersCollection_1.NumbersCollection([10, 3, -5, 0]);
+numbersCollection.sort();
+console.log(numbersCollection.data);
+const characterCollection = new CharactersCollection_1.CharacterCollection("Xaayb");
+characterCollection.sort();
+console.log(characterCollection.data);

@@ -341,3 +341,17 @@ Follow the instruction p57 07:39
 
 ![1671012387240](README.assets/1671012387240.png)
 
+
+
+
+
+## type guards: typeof vs instanceof
+
+![1671066241712](README.assets/1671066241712.png)
+
+
+
+## Interfaces vs Abstract Classes
+
+![1671102552546](README.assets/1671102552546.png)
+
