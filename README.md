@@ -1,7 +1,3 @@
-
-
-
-
 # TYPESCRIPT LEARNING
 
 ## What is Typescript?
@@ -354,4 +350,53 @@ Follow the instruction p57 07:39
 ## Interfaces vs Abstract Classes
 
 ![1671102552546](README.assets/1671102552546.png)
+
+
+
+
+
+# :smile:Football stats project
+
+## :100:set up project
+
+- mkdir stats
+
+- npm init -y  (generate the package.json file)
+- tsc --init   (generate the ts config file)
+- npm install nodemon concurrently (intall nodemon and concurrently)
+
+--------
+
+打开 code .
+
+- src   /  build    (create src directory and build directory)  
+- index.ts (inside the src directory)
+
+----
+
+打开 tsconfig.json
+
+![1671249324758](README.assets/1671249324758.png)
+
+-----
+
+打开 packgae.json
+
+![1671249543822](README.assets/1671249543822.png)
+
+----
+
+npm start 
+
+==第一次会报错，因为nodemon在typescript运行之前就运行了， ctrl+c之后重新再npm start就好了==
+
+---
+
+使用node的话
+
+npm install @types/node
+
+npm start
+
+-----------
 
