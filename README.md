@@ -261,7 +261,9 @@ Calls the base constructor, it can take the argument of the base constructor
 
 
 
-## Getters and Setters
+## Getters and Setters 
+
+新视频 p1
 
 Getters: We can read the *fullName* like a **property**.
 
@@ -400,3 +402,16 @@ npm start
 
 -----------
 
+
+
+# 中文
+
+## tuple：固定长度的数组
+
+![1671533085501](README.assets/1671533085501.png)
+
+
+
+## enum:结果在多个值之间进行选择的时候
+
+![1671533334644](README.assets/1671533334644.png)
