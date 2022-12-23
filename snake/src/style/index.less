@@ -1,4 +1,85 @@
-body{
-    background-color: aqua;
-    display: flex;
+//set variable
+@bg-color:#DAEAF1;
+
+// clear default styles
+*{
+    margin: 0;
+    padding: 0;
+    //set a total size，include padding and margin
+    box-sizing: border-box;
+}
+
+body {
+    font: bold 20px "Courier";
+}
+
+//Set the main style
+#main{
+    width: 360px;
+    height: 420px;
+    background-color: @bg-color;
+    margin: 100px auto;
+    border: 10px solid #82AAE3;
+    border-radius: 40px;
+
+    //Enable the flexbox
+    display:flex;
+    //Set the direction of the main axis
+    flex-flow: column;
+    //Sets the direction of the cross axis
+    align-items: center;
+    //Sets the alignment of the main axis
+    justify-content: space-around;
+
+    //game stage
+    #stage{
+        width: 304px;
+        height: 304px;
+        border: 2px solid #82AAE3;
+        //Enable relative positioning
+        position: relative;
+
+        //Set the style of the snake🐍 >The div of all child elements
+        #snake>div{
+                width: 10px;
+                height: 10px;
+                background-color: #227C70;
+                //between each snake
+                border: 1px solid @bg-color;
+
+               //Because the snake wants to move, it is necessary to turn on absolute positioning
+               position: absolute; 
+        }
+        
+        #food{
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 40px;
+            top: 100px;
+            //Enable the flexbox
+            display: flex;
+            //the main axis is horizontal axis. wrap to the next line
+            flex-flow: row wrap;
+            //设置主轴和侧轴的空白空间分配到元素之间  Sets the main and cross axis blank space allocated between elements
+            justify-content: space-between;
+            align-content: space-between;
+
+                &>div{
+                    width: 4px;
+                    height: 4px;
+                    background-color: #FF597B;
+                    //in the shape of a flower
+                    transform: rotate(45deg);
+                }
+           }
+    }
+
+    //score-panel style
+    #score-panel{
+        width: 300px;
+        display: flex;
+        //Sets the direction of the main axi
+        justify-content: space-between;
+    }
 }
