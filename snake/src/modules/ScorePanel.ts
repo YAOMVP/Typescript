@@ -6,17 +6,39 @@ class ScorePanel {
     scoreEle :HTMLElement;
     levelEle : HTMLElement;
 
-    constructor(){
+    //Set variable restriction level
+    maxLevel: number;
+    //Set the variable how many points to upgrade
+    upScore:number;
+
+    constructor(maxLevel:number = 10,upScore:number = 10){
         this.scoreEle = document.getElementById("score")!;
         this.levelEle = document.getElementById("level")!;
+        this.maxLevel = maxLevel;
+        this.upScore = upScore;
     }
 
-    //1.设置加分的方法
+    //1.😊How to set points
     addScore(){
-        //设置自增
-        this.score++;
-        //自增之后赋值
-        this.scoreEle.innerHTML = this.score + "";
+        //auto increment
+        //this.score++;
+        //assignment after increment
+        //this.scoreEle.innerHTML = this.score + "";
+
+        //😊Another way write
+        this.scoreEle.innerHTML = ++this.score+"";
+
+        //😊Get the score
+        if(this.score % 10 === 0){
+            this.levelUp();
+        }
+    }
+
+    //2.😊upgrade the level
+    levelUp(){
+        if(this.level < this.maxLevel){
+            this.levelEle.innerHTML = ++this.level + "";
+        }
     }
 }
 
